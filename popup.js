@@ -6,7 +6,7 @@
 
 var popup = document.querySelector(".popup");
 popup.addEventListener('click', function() {
-   fadeOut( this, 1 )
+   fadeOut( this )
 });
 
 function fadeOut(el){
