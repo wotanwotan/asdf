@@ -1,3 +1,9 @@
+// fadeIn / fadeOut
+// http://www.chrisbuttery.com/articles/fade-in-fade-out-with-javascript/
+
+// cookies http://www.w3schools.com/js/js_cookies.asp
+// http://www.w3schools.com/js/js_cookies.asp
+
 var popup = document.querySelector(".popup");
 popup.addEventListener('click', function() {
    fadeOut( this, 1 )
@@ -5,7 +11,6 @@ popup.addEventListener('click', function() {
 
 function fadeOut(el){
    el.style.opacity = 1;
-
    (function fade() {
       if ((el.style.opacity -= .1) < 0) {
          el.style.display = "none";
